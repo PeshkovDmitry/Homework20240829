@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8d0ba2-985e-4eaa-876f-3b1438b59e39" name="Changes" comment="Сделал задачу 3">
+    <list default="true" id="dc8d0ba2-985e-4eaa-876f-3b1438b59e39" name="Changes" comment="Сделал задачу 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,8 @@
     "Python.Task01.executor": "Run",
     "Python.Task02.executor": "Run",
     "Python.Task03.executor": "Run",
+    "Python.Task04.executor": "Run",
+    "Python.Task05.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Дима/PycharmProjects/Classwork20240829"
@@ -104,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725045836578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделал задачу 4">
+      <option name="closed" value="true" />
+      <created>1725047422580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725047422580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,6 +122,7 @@
     <MESSAGE value="Сделал задачу 1" />
     <MESSAGE value="Сделал задачу 2" />
     <MESSAGE value="Сделал задачу 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 3" />
+    <MESSAGE value="Сделал задачу 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 4" />
   </component>
 </project>
