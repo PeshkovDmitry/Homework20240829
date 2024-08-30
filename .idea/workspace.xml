@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8d0ba2-985e-4eaa-876f-3b1438b59e39" name="Changes" comment="Сделал задачу 2">
+    <list default="true" id="dc8d0ba2-985e-4eaa-876f-3b1438b59e39" name="Changes" comment="Сделал задачу 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Task01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Дима/PycharmProjects/Classwork20240829&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Task01.executor": "Run",
+    "Python.Task02.executor": "Run",
+    "Python.Task03.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Дима/PycharmProjects/Classwork20240829"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,13 +96,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725038098708</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сделал задачу 3">
+      <option name="closed" value="true" />
+      <created>1725045836578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725045836578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Частично проработал задачу 1" />
     <MESSAGE value="Сделал задачу 1" />
     <MESSAGE value="Сделал задачу 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 2" />
+    <MESSAGE value="Сделал задачу 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 3" />
   </component>
 </project>
