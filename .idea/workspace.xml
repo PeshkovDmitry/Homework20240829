@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8d0ba2-985e-4eaa-876f-3b1438b59e39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Homework20240829.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task05.py" afterDir="false" />
+    <list default="true" id="dc8d0ba2-985e-4eaa-876f-3b1438b59e39" name="Changes" comment="Сделал задачу 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PeshkovDmitry&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PeshkovDmitry/Homework20240829.git&quot;,
+    &quot;accountId&quot;: &quot;45fb3927-e131-4d60-a773-2998fb15f80d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2lNlCYTFfIsO7UDWpuB8UWDdHbv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,13 +46,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Task01.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Task01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task02.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Дима/PycharmProjects/Classwork20240829&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,6 +71,37 @@
       <option name="presentableId" value="Default" />
       <updated>1725028287897</updated>
     </task>
+    <task id="LOCAL-00001" summary="Частично проработал задачу 1">
+      <option name="closed" value="true" />
+      <created>1725032347335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725032347335</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Сделал задачу 1">
+      <option name="closed" value="true" />
+      <created>1725036831676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725036831676</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сделал задачу 2">
+      <option name="closed" value="true" />
+      <created>1725038098708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725038098708</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Частично проработал задачу 1" />
+    <MESSAGE value="Сделал задачу 1" />
+    <MESSAGE value="Сделал задачу 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 2" />
   </component>
 </project>
