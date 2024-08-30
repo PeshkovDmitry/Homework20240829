@@ -22,10 +22,7 @@ class Matrix:
             return None
         res = Matrix(self.size_x, self.size_y)
         for y in range(self.size_y):
-            row = []
-            for x in range(self.size_x):
-                row.append(self.data[y][x] + other.data[y][x])
-            res.data.append(row)
+            res.data.append([self.data[y][x] + other.data[y][x] for x in range(self.size_x)])
         return res
 
     def __sub__(self, other):
@@ -33,25 +30,26 @@ class Matrix:
             return None
         res = Matrix(self.size_x, self.size_y)
         for y in range(self.size_y):
-            row = []
-            for x in range(self.size_x):
-                row.append(self.data[y][x] - other.data[y][x])
-            res.data.append(row)
+            res.data.append([self.data[y][x] - other.data[y][x] for x in range(self.size_x)])
         return res
 
     def __mul__(self, other):
         if self.size_x != other.size_y:
             return None
         res = Matrix(other.size_x, other.size_y)
+        for _ in range(other.size_y):
+            res.data.append([0 for x in range(other.size_x)])
         for s_y in range(self.size_y):
             list_1 = self.data[s_y]
             for o_x in range(other.size_x):
-                list_2 = []
-                for o_y in range(other.size_y):
-                    list_2.append(other.data[o_y][o_x])
-                cur_val = sum([list_1[i] * list_2[i] for i in range(len(list_1))])
-                print(f"{s_y=}, {o_x=}, {cur_val=}")
-                # res.data[s_y][o_x] = cur_val
+                list_2 = [other.data[o_y][o_x] for o_y in range(other.size_y)]
+                res.data[s_y][o_x] = sum([list_1[i] * list_2[i] for i in range(len(list_1))])
+        return res
+
+    def __invert__(self):
+        res = Matrix(self.size_y, self.size_x)
+        for y in range(res.size_y):
+            res.data.append([self.data[x][y] for x in range(res.size_x)])
         return res
 
     @property
@@ -87,17 +85,21 @@ if __name__ == "__main__":
     # m_2.data = [[7, 8], [9, 10], [11, 12]]
     # print(m_2)
     # print("Сложение")
-    # m_3 = m_1 + m_2
-    # print(m_3)
+    # print( m_1 + m_2)
     # print("Вычитание")
-    # m_4 = m_2 - m_1
+    # print(m_2 - m_1)
+    # m_3 = Matrix(3, 3)
+    # m_3.data = [[3, -1, 2], [4, 2, 0], [-5, 6, 1]]
+    # print(m_3)
+    # m_4 = Matrix(2, 3)
+    # m_4.data = [[8, 1], [7, 2], [2, -3]]
     # print(m_4)
-    m_5 = Matrix(3, 3)
-    m_5.data = [[3, -1, 2], [4, 2, 0], [-5, 6, 1]]
+    # print("Умножение")
+    # print(m_3 * m_4)
+    m_5 = Matrix(2, 3)
+    m_5.data = [[0, 3], [1, 4], [2, 5]]
     print(m_5)
-    m_6 = Matrix(1, 3)
-    m_6.data = [[8], [7], [2]]
-    print(m_6)
-    print("Умножение")
-    m_7 = m_5 * m_6
-    # print(m_5)
+    print("Транспонирование")
+    print(~m_5)
+
+
